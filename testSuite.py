@@ -90,9 +90,13 @@ def frequencyAnalysis(ciphertext, format='count'):
             index=letters.index(letter)
             counts[index]+=1
     if format=='percentage':
-        total=len(letters)
         i=0
-        while i<total:
-            counts[i]=counts[i]/total*100
+        total=0
+        amount=len(counts)
+        for l in counts:
+            total+=l
+        while i<amount:
+            counts[i]=(counts[i]/total)*100
             i+=1
+
     return(letters, counts)
