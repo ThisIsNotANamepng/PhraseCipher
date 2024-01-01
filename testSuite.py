@@ -96,5 +96,3 @@ def frequencyAnalysis(ciphertext, format='count'):
             counts[i]=counts[i]/total*100
             i+=1
     return(letters, counts)
-
-
