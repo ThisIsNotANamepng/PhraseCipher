@@ -41,20 +41,13 @@ As long as all parties agree on what rules to use, the Phrase Cipher can be as s
 
 The true strength of the Library Cipher lies in two unique factors which differentiate it from almost every other cipher. 
 
-Limitless Parametrization
-    The vanilla Library Cipher is a relatively simple encoding standard which can be understood and decrypted by most. Because of it's simplicity and human use, the Library Cipher can be changed by anyone and used in a way which no one else understands. Instead of depending on mathematical security which isn't possible for use by humans, the Library Cipher leverages the advantages of being used by humans, including the ability to change the standard by any party. While this sounds like security through obscurity, it is not. While security through obscurity does rely on keeping the seurity and inner workings of a system secret, this cherry picked form of security through obscurity is more akin to a second key rather than keeping the technical details of a system used by many parties. It keeps the technical details of a private form of the cipher, not denying the exposure of the security of the cipher as a whole. 
+### Limitless Parametrization
 
-    - The vanilla Library Cipher is relatively simple and might be susceptible to computer-based attacks
-    - Becasue it follows simples steps, the Cipher can be changed so only people with which the new standard was shared can read data encrypted with the new standard
-    - The Cipher relies on the advantages of being used by humans
-    - It is not security through obscurity, it is more akin to using a second key to designate how to en/decode data
+The vanilla Library Cipher, is a straightforward encryption method that aims to be understood by anybody. One of the advantages of being so simple is its adaptability. By adhering to uncomplicated procedures, the Cipher can be easily modified, ensuring that only individuals privy to the newly established standard can decipher data encrypted with it. Unlike relying on security through obscurity, this cipher functions more like employing a secondary key to specify the rules for encoding and decoding data. In order to defeat computers with only the resources of the human mind, creativity is key. 
 
+### Human Randomness
 
-Human Randomness
-
-    - Humans are known to be bad at choosing randomness
-    - I did a study to investigate how well humans can be random, and how that strewn randomness can help or hurt the security of the cipher 
-    - Maybe strewn randomness is more secure for the cipher because the randomness is more difficult to predict
+There is little academic research done on how well humans can generate randomness, but it is widely accepted that humans cannot reliably generate truly random data. In theory, the unique strewn randomness of the Library Cipher may make it more secure, making the more randomness unpredictable. In order to understand the effectiveness of human vs. computer generated randomness in the context of this cipher, I will be conducting a study which investigates how humans using the vanilla cipher choose. 
 
 ## Ongoing Research
 
