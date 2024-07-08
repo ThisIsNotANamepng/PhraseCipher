@@ -2,7 +2,7 @@
 
 This file contains the record for continuing research being done on the Library Cipher.
 
-**Note: All of the texts are curtesy of [Project Gutenberg](https://www.gutenberg.org/).**
+**Note: All of the texts are courtesy of [Project Gutenberg](https://www.gutenberg.org/).**
 
 All of the files with the texts I used still contain the license appended to all Gutenberg Project texts, this does skew the data a bit, but it is unnoticable with the size of the files.
 
